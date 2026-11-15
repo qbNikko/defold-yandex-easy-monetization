@@ -18,12 +18,5 @@ android {
 
 dependencies {
     implementation 'com.yandex.android:mobileads:8.3.0'
-    implementation 'com.yandex.ads.mediation:mobileads-google:25.2.0.2'
-    implementation 'com.yandex.ads.mediation:mobileads-unityads:4.17.0.3'
-    implementation 'com.yandex.ads.mediation:mobileads-applovin:13.6.3.0'
-    implementation 'com.yandex.ads.mediation:mobileads-ironsource:9.2.0.3'
-    implementation 'com.yandex.ads.mediation:mobileads-mintegral:17.0.41.3'
-    implementation 'com.yandex.ads.mediation:mobileads-bigoads:5.7.0.3'
-    implementation 'com.yandex.ads.mediation:mobileads-vungle:7.7.0.3'
     implementation 'com.yandex.ads.mediation:mobileads-mytarget:5.45.3.4'
 }
