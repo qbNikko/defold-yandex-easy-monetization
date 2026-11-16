@@ -1,2 +1,11 @@
 -keep,allowoptimization class com.yandex.mobile.ads.** { *; }
 -keep,allowoptimization class com.my.target.** { *; }
+
+# Сохранение аннотаций
+-keepattributes *Annotation*
+
+# Сохранение сигнатур generic-типов
+-keepattributes Signature
+
+# Сохранение вложенных классов
+-keepattributes InnerClasses,EnclosingMethod
