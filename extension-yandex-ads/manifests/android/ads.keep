@@ -1,5 +1,6 @@
 -keep,allowoptimization class com.yandex.mobile.ads.** { *; }
 -keep,allowoptimization class com.my.target.** { *; }
+-keep,allowoptimization class com.defold.extension.** { *; }
 
 # Сохранение аннотаций
 -keepattributes *Annotation*
