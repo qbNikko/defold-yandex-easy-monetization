@@ -1,0 +1,3 @@
+-keep class com.yandex.mobile.ads.** { *; }
+-keep class com.my.target.** { *; }
+-keepattributes *Annotation*
