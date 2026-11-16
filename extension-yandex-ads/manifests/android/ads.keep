@@ -1,3 +1,2 @@
--keep class com.yandex.mobile.ads.** { *; }
--keep class com.my.target.** { *; }
--keepattributes *Annotation*
+-keep,allowoptimization class com.yandex.mobile.ads.** { *; }
+-keep,allowoptimization class com.my.target.** { *; }
